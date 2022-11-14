@@ -6,4 +6,8 @@ public:
 	Game();
 	Game(GridBuilder &Grid);
 	~Game();
+	void NextIteration();
+	int CountNeighbors(int row, int col, GridBuilder grid);
+private:
+	GridBuilder _grid;
 };
