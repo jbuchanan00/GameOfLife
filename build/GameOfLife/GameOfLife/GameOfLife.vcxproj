@@ -128,9 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\inc\Game.h" />
     <ClInclude Include="..\..\..\inc\Grid.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\src\Game.cpp" />
     <ClCompile Include="..\..\..\src\Grid.cpp" />
     <ClCompile Include="..\..\..\src\main.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\inc\</AdditionalIncludeDirectories>
